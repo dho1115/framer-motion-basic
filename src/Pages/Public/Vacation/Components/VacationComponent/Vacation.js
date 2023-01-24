@@ -22,7 +22,7 @@ const VacationComponent = () => {
             images.map((val, ind) => {
                 //Used a delay of ((ind*2) + 3.7) to achieve an image of one coming right after another.
                 return (
-                    <motion.div key={ind} className='mx-5' initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 3.5, delay: ((ind*2) + 3.7)}}>
+                    <motion.div key={ind} className='mx-5' initial={{ opacity: 0 }} animate={{ opacity: 1 }} whileHover={{ scale: 3.1 }} transition={{duration: 3.5, delay: ((ind*2) + 3.7)}}>
                         <ImageWrapper image={val} description="Image." />
                     </motion.div>
                 )
