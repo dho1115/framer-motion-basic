@@ -1,7 +1,7 @@
 import React from 'react'
+import './ImageWrapper.styles.css';
 
-const ImageWrapper = (props) => {
-    const { image, description } = props.image;
+const ImageWrapper = ({ image, description }) => {
 
   return <img src={image}  alt={description}/>
 }
