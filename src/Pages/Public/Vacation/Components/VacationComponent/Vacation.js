@@ -4,7 +4,7 @@ import './Vacation.styles.css';
 const Vacation = () => {
   return (
       <div>
-          Vacation
+          <h1>Vacation Component.</h1>
       </div>
   )
 }
