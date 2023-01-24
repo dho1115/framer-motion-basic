@@ -1,5 +1,4 @@
 img {
     width: 150px;
-    height: 150px;
-    border: 1.5px solid red;
+    min-height: 100%;
 }
